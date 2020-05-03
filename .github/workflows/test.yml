@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Install Dependencies
-        uses: anna-money/github-actions-npm@v1
+      - uses: anna-money/github-actions-npm@v1
         run: npm cpi --loglevel verbose
       - name: Run  Unit Tests
         run: npm run test:e2e
