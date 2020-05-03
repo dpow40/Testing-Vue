@@ -6,5 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run NPM eslint
+      - name: Run npm lint
         uses: anna-money/github-actions-npm@v1
