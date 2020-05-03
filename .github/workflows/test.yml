@@ -10,6 +10,6 @@ jobs:
       - name: Install Dependencies
         run: npm install --frozen-lockfile
       - name: Unit Tests
-        run: npm test:unit
+        run: npm run test:unit
       - name: E2E tests
-        run: npm test:e2e --headless
+        run: npm run test:e2e --headless
