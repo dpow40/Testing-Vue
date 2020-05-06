@@ -1,8 +1,11 @@
 # opinion-ate
+An app for tracking reviews of dishes at different restaurants.
 
+Production: <https://opinion-ate-vue-00.netlify.app/>
 ## Project setup
 ```
-npm install
+Dependencies are locked with a package-lock.json` file.
+__ npm install __ will install all the dependencies you need.
 ```
 
 ### Compiles and hot-reloads for development
